@@ -9,18 +9,19 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
+  title: "Hello, I'm a",
+  name: 'Vikrant Prasad',
+  subtitle: "I'm a full-stack web developer",
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  img: 'jai.jpg',
+  paragraphOne: 'I am a final year Chemical Engineering UG student at IIT Guwahati.',
+  paragraphTwo:
+    'I love coding and i am trying to gain mastery in full-stack web development. Although my majors is Chemical Engineering I am trying to learn more about core cs subjects.',
+  paragraphThree: 'I love reading novels and self-development books in my free time.',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
