@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: "Hello, I'm a",
   name: 'Vikrant Prasad',
-  subtitle: "I'm an aspiring full-stack web developer",
+  subtitle: 'an aspiring full-stack web developer.',
   cta: '',
 };
 
@@ -22,7 +22,7 @@ export const aboutData = {
   paragraphTwo:
     'I love coding and i am trying to gain mastery in full-stack web development. Although my majors is Chemical Engineering I am trying to learn more about core cs subjects.',
   paragraphThree: 'I love reading novels and self-development books in my free time.',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/14pDJOtMPaR6mZbZ_lmIovHBxANRmRbId/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -78,7 +78,15 @@ export const projectsData = [
     repo: 'https://vikrantprasad5.github.io/simon-game/', // if no repo, the button will not show up
   },
 ];
-
+// PORs
+export const POR = {
+  img: 'jai.jpg',
+  paragraphOne: 'I am a final year Chemical Engineering UG student at IIT Guwahati.',
+  paragraphTwo:
+    'I love coding and i am trying to gain mastery in full-stack web development. Although my majors is Chemical Engineering I am trying to learn more about core cs subjects.',
+  paragraphThree: 'I love reading novels and self-development books in my free time.',
+  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+};
 // CONTACT DATA
 export const contactData = {
   cta: '',
