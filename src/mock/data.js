@@ -9,7 +9,7 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: "Hello, I'm a",
+  title: "Hello, I'm",
   name: 'Vikrant Prasad',
   subtitle: 'an aspiring full-stack web developer.',
   cta: '',
@@ -39,7 +39,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'b.jpg',
+    img: 'b3.jpg',
     title: 'Github User Stats',
     info:
       'Developed a web-application to fetch the stats of the any Github User by using the Github API and displaying their statistics using fusion charts.',
@@ -76,6 +76,24 @@ export const projectsData = [
     info2: '',
     url: 'https://github.com/vikrantprasad5/simon-game',
     repo: 'https://vikrantprasad5.github.io/simon-game/', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'f.jpg',
+    title: 'Virtual Drum Kit',
+    info: 'Rock those "w,a,s,d,j,k,l" keys to make some slick drumming sounds.',
+    info2: 'Developed it by using stock sounds, javascript and DOM.',
+    url: 'https://vikrantprasad5.github.io/Drum-Game-Kit/',
+    repo: 'https://github.com/vikrantprasad5/Drum-Game-Kit', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'g.jpg',
+    title: 'TinDog',
+    info: "It's Tinder but for dogs!",
+    info2: 'A beautiful responsive concept page for Tinder for dogs.',
+    url: 'https://vikrantprasad5.github.io/TinDog/',
+    repo: 'https://github.com/vikrantprasad5/TinDog', // if no repo, the button will not show up
   },
 ];
 // PORs
