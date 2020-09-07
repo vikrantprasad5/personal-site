@@ -18,9 +18,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'jai.jpg',
-  paragraphOne: 'I am a final year Chemical Engineering UG student at IIT Guwahati.',
+  paragraphOne: 'I am a final year IIT Guwahati student pursuing Chemical Engineering.',
   paragraphTwo:
-    'I love coding and i am trying to gain mastery in full-stack web development. Although my majors is Chemical Engineering I am trying to learn more about core cs subjects.',
+    'I love coding and i am trying to gain mastery in full-stack web development. Although my majors is Chemical Engineering I am enthusiastic and trying to learn more about core cs subjects.',
   paragraphThree: 'I love reading novels and self-development books in my free time.',
   resume: 'https://drive.google.com/file/d/14pDJOtMPaR6mZbZ_lmIovHBxANRmRbId/view?usp=sharing', // if no resume, the button will not show up
 };
@@ -32,8 +32,9 @@ export const projectsData = [
     img: 'a.jpg',
     title: 'Society Basket',
     info:
-      'Developed an e-commerce website from which we can easily order grocery items in our locality, thus minimizing contact and bringing local shops to your door.',
-    info2: '',
+      'Developing an e-commerce website from which we can easily order grocery items in our locality, thus minimizing contact and helping local shops expand their business in covid times.',
+    info2:
+      'In the initial days of lockdown when groceries were being home delivered it was really inconvenient to whatsapp your orders to the vendor, so I took the challenge to learn the necessary skills to develop a platform from where you can place your orders easily. Development is under progress.',
     url: 'https://society-basket.netlify.app',
     repo: 'https://github.com/vikrantprasad5/society-basket', // if no repo, the button will not show up
   },
@@ -41,9 +42,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'b3.jpg',
     title: 'Github User Stats',
-    info:
+    info: "See your and your friend's github stats with beautiful fusion charts on just a click. ",
+    info2:
       'Developed a web-application to fetch the stats of the any Github User by using the Github API and displaying their statistics using fusion charts.',
-    info2: '',
     url: 'https://react-github-user-stats.netlify.app',
     repo: 'https://github.com/vikrantprasad5/Github-Users', // if no repo, the button will not show up
   },
@@ -61,9 +62,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'd.jpg',
     title: 'To-Do List',
-    info:
+    info: 'A To-do List which you can access from anywhere!',
+    info2:
       'Made a To-do List App and connected it with cloud database so that the list is stored and can be accessed from any network.',
-    info2: '',
     url: 'https://github.com/vikrantprasad5/todo-list',
     repo: 'https://morning-taiga-20548.herokuapp.com', // if no repo, the button will not show up
   },
@@ -71,9 +72,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'e.jpg',
     title: 'Simon Game',
-    info:
+    info: "Let's see how strong is your memory!",
+    info2:
       'Made an online version of popular electronic memorization game called Simon using javascript.',
-    info2: '',
     url: 'https://github.com/vikrantprasad5/simon-game',
     repo: 'https://vikrantprasad5.github.io/simon-game/', // if no repo, the button will not show up
   },
